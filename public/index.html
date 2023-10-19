@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS Starter Kit</title>
-
+    <!-- Remove the next line later. -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 
     <script src="script.js" defer></script>
 
 </head>
-<body>
 
-    <h1>Starter kit for Tailwind CSS.</h1>
+<body class="h-screen flex items-center justify-center ">
+
+    <time class="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 p-4">
+        <data class="month block text-4xl text-center p-4">Month</data>
+        <data class="dayOfMonth block text-4xl text-center p-4">00</data>
+        <data class="year block text-4xl text-center p-4">0000</data>
+        <data class="dayOfWeek block text-4xl text-center p-4">SMTWTFS</data>
+      </time>
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="src/input.css">
     
 </body>
 </html>
